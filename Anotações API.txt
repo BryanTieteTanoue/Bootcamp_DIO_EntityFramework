@@ -1,0 +1,28 @@
+
+#API
+	-Interface de programação de aplicações
+	-Realizar a integração de sistemas, mesmo que usem linguagens diferentes
+	
+#Rest
+	-Conjunto de princípios que usa padrões e arquitetura da web, mas deve
+ser aplicada corretamente para oferecer benefícios
+
+#Swagger:
+	-Para consumir uma API é necessário informações sobre ela. O swagger é uma ferramenta
+que ajuda na documentação da API de como usar(parâmetros necessários por exemplo).
+Deve ser instalado (imporatado) e configurado antes de sre usado
+	-Gera um página web com informações de cada parte, mostra cada um dos 
+atributos e os métodos, parâmetros necessários para aquela parte do código.
+	-Possível testar ali mesmo os códigos, fazer alterações (não definitivas,
+apenas para testes)
+
+#Refrencia: permite um projeto "ver" outro, assim reaproveitamos código
+
+#Referencia regular: uma classe referência outra e a segunda também a referência,
+o swagger terá probelmas para ser aplicado nesse caso. 
+
+#Em projetos de testes:
+	-"[FACT]" indica que é um projeto de teste
+	-Os pacotes devem ser isntalados no porjeto de teste também, afinal sem eles
+não podem rodar os comandos
+	- o "mock" precisa ser informado o que os métodos fazem.

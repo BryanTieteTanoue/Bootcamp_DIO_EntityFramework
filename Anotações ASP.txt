@@ -1,0 +1,74 @@
+#Entity Framwork
+	-é um ORM(Mapeador relacional de objeto)
+	-Permite trabalhar com bancode dados usnado obejtos .NET
+	-Evita a maioria dos códigos necessários
+
+#Databasefirst
+	-o banco foi criado antes de iniciar aplicacao
+	-lê o banco de dados e aplica engenharia reversa, carregando classes que 
+representam as tabelas
+
+#Model first
+	-gera um modelo e depois o banco de dados
+	-Usa o "entity" e "Association"
+
+#Code first
+	-cria as classes primeiro, elas são "POCO"
+	-gERA DEPOIS AS tabelas
+
+#Data annotations
+	-Required: significa que é obrigatório
+	-RegularExpression: válida as informações
+	-Display: como será mostrad
+	-StringLENGHT
+	-MinLenght
+	-Displayformat
+	-range
+
+#Migrations
+	-forma de atualizar o esquema do banco de dados e manter os dados existentes
+	-Antes tinha: 
+	-"createDatabaseifNotExists": só cria se não existir, tinha que deletar manualmente
+caso as classes mudassem, perdia os dados
+	-DropCreateDatabase: sempre deleta os dados quando roda o projeto
+	-DropCreateDatabaseIfModelChanges: só muda se você muda as classes, aí deleta tudo para 
+aplicar a mudança na tabela
+
+#MVC
+	-Padrão de arquitetura
+	-Model, view, controller
+	-Isolamento das regras de negócios da interface do usuários
+
+#Routes
+	-ASP.NET MVC
+	-As requisições são enviadas para uma "Ação Controller"
+	-Ao criar um ASP .NET MVC ele já cria um padrão de rota
+	-Possível criar um router personalizada
+	-Action result: aç~]ao gerda por uma router
+
+#HTTP verbs:
+	-indicam aso servidor qual ação usar: get, post..
+
+#Razor
+	-simplifica a criação ASP.NET MVC
+	-Mais fácil e legível
+	-Sintaxe simples, usa C#
+
+#Middlewares
+	-Classes aplicadas em todas as solicitações, modificando-as
+
+#Starup
+	-Incia a projeto-ConfigureService
+	-Configure: espeifica os middlewares
+
+#Models
+	-As classes estão lá, contém as informações delas, como id, preço, 
+quantidade...
+
+#Migrations: anota as mudanças feitas
+#Update-Database: atualiza o banco de dados com novos cmapos nas tabelas e 
+novas tabelas, sem perder os dados
+#Está implementado automaticamente o delete em cascata
+#Required compele o usário a inserir dados
+#Display altera como a informarção é vista. Muda o nome na hora de  exibir
+#Range define um valor mínimo e máximo
