@@ -1,0 +1,1 @@
+Aula sobre aplicações ASP.NET. Infelizmente tive problemas com a ferramenta usada para gerar os códigos (Visual Studio), estava muito lento, então achei mais produtivo assistir e anotar o que o professor falava
